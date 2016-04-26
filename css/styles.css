@@ -1,0 +1,116 @@
+/************  HEADER ************/
+#divHeaderContainer{
+	margin: 0 auto;
+	text-align: center;
+	padding: 10% 5%;
+}
+h1{
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 5%;
+}
+
+
+header img {
+	width:65%;
+	height: auto;
+	margin: 5% 0;
+}
+
+
+/************  NAV  ************/
+li{
+	background-color: #fff;
+	font-weight: bold;
+	list-style: none;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 2% 0;
+}
+	
+nav li a{
+	text-decoration: none;
+	font-size: .8em;
+}
+
+
+
+/************  CONTENT ************/
+
+body{
+
+	font-family: arial,helvetica, verdana, sans-serif;
+	font-size: 16px;
+	color: #000;
+	background: #fafafa;
+}
+
+p{
+	color:#7f7f7f;
+	line-height: 1.2;
+}
+
+h3{
+	 margin-bottom: 5%;
+}	
+
+.floatRight{
+	float:right;
+	width: 45%;
+}
+
+.floatRight{
+	float:left;
+	width: 45%;
+}
+.bold{
+
+	font-weight: bold;
+}
+
+#wrapper{
+    background-color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10% 5%;
+}
+
+#wrapper h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .8em;
+	margin-bottom: 5%;
+
+}
+
+#wrapper img {
+	width:100%;
+	height: auto;
+	margin: 10% 0;
+}
+/************  FOOTER ************/
+#divFooter{
+	margin: 0 auto;
+	text-align: center;
+	padding: 10% 5%;
+}
+#divFooter h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .8em;
+	margin-bottom: 8%;
+}
+
+
+#divFooter p{
+	margin-bottom: 5%;
+}
+
+#divFooter hr{
+	margin-top: 27%;
+	margin-bottom: 10%;
+}
+
+/************  MEDIA QUERIES ************/
+
