@@ -186,7 +186,7 @@ h3{
 }
 
 .divPortfolio:nth-child(4n){
-	/*margin-right: 0;*/
+	*margin-right: 0;
 }
 
 #divHeaderContainer h1{
