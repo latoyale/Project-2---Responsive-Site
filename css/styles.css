@@ -182,7 +182,7 @@ h3{
 	}
 
 	.divPortfolio {
-    width: 33%;
+    width: 30%;
 }
 
 #divHeaderContainer h1{
@@ -195,6 +195,10 @@ h3{
 	float: right;
 }
 
+#divHeaderContainer p{
+	float: left;
+	margin:  0;
+}
 
 
 }
