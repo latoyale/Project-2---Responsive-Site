@@ -185,9 +185,14 @@ h3{
     width: 33%;
 }
 
+#divHeaderContainer h1{
+	float: left;
+	font-size: 3.5em;
+}
 
 #divHeaderContainer nav{
-
+	width: 50%;
+	float: right;
 }
 
 
