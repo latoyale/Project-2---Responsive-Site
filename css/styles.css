@@ -87,13 +87,13 @@ h3{
     background-color: #fff;
 	margin: 0 auto;
 	text-align: center;
-	padding: 10% 5%;
+	padding: 5% 5%;
 }
 
 #wrapper h2{
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: .8em;
+	font-size: 1em;
 	margin-bottom: 5%;
 	text-align: center;
 
@@ -152,7 +152,9 @@ h3{
 		float:left;
 		margin-right: 3%;
 		}
-
+    .divPortfolio p{
+      text-align: center;
+    ]
 
 		.divPortfolio img {
 		width: 100%;
@@ -179,15 +181,17 @@ h3{
 
 @media screen and (min-width: 1024px) {
 	.divPortfolio {
-    width: 32%;
-    margin-left: 1%;
+    width: 30%;
+    margin-left: 3%;
     margin-right: 0;
+}
+  
+  #divHeaderContainer {
+    margin: 0 auto;
     text-align: center;
+    padding: 3% 5%;
 }
 
-.divPortfolio:nth-child(4n){
-	*margin-right: 0;
-}
 
 #divHeaderContainer h1{
 	float: left;
@@ -204,30 +208,44 @@ h3{
 	float: left;
 	margin:  0;
 }
-	}
-@media screen and (min-width: 768px){
-	#wrapper {
-	padding: 3% 5%;
-	}
-
-	#divFooter {
-	padding: 3% 5%;
-	}
-
-	#divFooter h2 {
-	font-size: 1.0em;
-	margin-bottom: 2%;
-	}
-
-	#divFooter hr {
-    margin-top: 5%;
+ #divFooter{ 
+    padding: 3% 5%;
+  } 
+  
+#divFooter h2{ 
+    font-size:1em; 
+    margin-bottom:4%;
+  }	
+  
+#divFooter hr{
+    margin-top: 6%; 
     margin-bottom: 2%;
+  }
+
+#wrapper {
+    padding: 2% 5%;
+
 }
-#divFooter p {
-    margin-bottom: 3%;
+#wrapper h2 {
+   margin-bottom:0;
+}
+p#top{
+
+		display:none;
+		}
+
+.skillsDiv{
+  padding-top:4%;
+  }
+    
+ footer nav ul{
+	visibility:visible;
+}
+    
+ .footerNav{
+    float: right;
+    width: 21%;
 }
 
-#wrapper h2 {
-    font-size: 1.0em; 
-}
+    }   
 }
