@@ -1,5 +1,5 @@
 	/************  HEADER ************/
-	#divHeaderContainer{
+	#headerSection{
 		margin: 0 auto;
 		text-align: center;
 		padding: 5% 5%;
@@ -210,7 +210,7 @@
 	}
 
 	
-	  #divHeaderContainer {
+	  #headerSection {
 	    margin: 0 auto;
 	    text-align: center;
 	    width: 1024px;
